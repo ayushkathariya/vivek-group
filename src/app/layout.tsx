@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,12 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <div className="w-full fixed top-0 z-10">
           <Header />
           <Navbar />
         </div>
-        <div>{children}</div>
+        <div className="mt-[4.05rem]">{children}</div>
+        <div>
+          <WhatsAppIcon />
+        </div>
       </body>
     </html>
   );
