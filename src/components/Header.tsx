@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center bg-bg-black text-bg-white px-2 md:px-6 lg:px-12 xl:px-16">
       <div className="hidden lg:block"></div>
-      <div className="flex items-center gap-[0.3rem] sm:gap-2 md:gap-4">
+      <div className="flex items-center gap-[0.3rem] sm:gap-2 md:gap-4 lg:ml-48">
         <Link href="#company" className="text-[0.43rem] sm:text-[0.65rem]">
           Company
         </Link>
