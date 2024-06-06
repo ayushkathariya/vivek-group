@@ -57,7 +57,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function NavbarUI() {
   return (
-    <nav className="flex justify-between items-center  px-2 md:px-6 lg:px-12 xl:px-16 py-2 bg-bg-white">
+    <nav className="flex justify-between items-center z-20  px-2 md:px-6 lg:px-12 xl:px-16 py-2 bg-bg-white">
       <div>
         <Image
           src={"/logo.png"}

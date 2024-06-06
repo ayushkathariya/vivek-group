@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WhyUs() {
   return (
-    <section className="px-2 md:px-6 lg:px-12 xl:px-16 py-10 bg-primary border lg:py-20 flex flex-col gap-8 lg:gap-11">
+    <section className="px-2 md:px-6 lg:px-12 xl:px-16 py-10 bg-primary lg:py-20 flex flex-col gap-8 lg:gap-11">
       <div>
         <h1 className="font-bold text-2xl text-white text-center">Why Us</h1>
       </div>
