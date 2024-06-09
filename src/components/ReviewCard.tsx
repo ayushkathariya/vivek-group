@@ -3,10 +3,10 @@ import { Separator } from "@/components/ui/separator";
 
 export default function ReviewCard() {
   return (
-    <div className="border flex flex-col gap-4 px-5 py-5 rounded-lg box-border mx-2 duration-300 hover:border-primary group">
+    <div className="border flex flex-col gap-4 px-5 py-5 rounded-lg box-border mx-2 duration-300 hover:border-primary group cursor-pointer">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <Avatar className="group-hover:animate-spin">
+          <Avatar className="group-hover:animate-flip">
             <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
@@ -23,7 +23,7 @@ export default function ReviewCard() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="h-6 w-6 text-yellow-500"
+                  className="h-6 w-6 text-yellow-500 md:h-5 md:w-5 group-hover:animate-flip"
                 >
                   <path
                     fillRule="evenodd"
