@@ -11,9 +11,9 @@ export default function Page() {
       <HeroSection />
       <ServiceSection />
       <WhyUs />
-      <FAQSection />
       <GallerySection />
       <ReviewSection />
+      <FAQSection />
     </main>
   );
 }

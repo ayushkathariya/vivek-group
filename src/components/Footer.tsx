@@ -100,7 +100,7 @@ export default function Footer() {
       </div>
       <div>
         <p className="text-sm font-medium text-gray-500 text-center">
-          © 2024 Vivek's Group. All rights reserved.
+          © 2024 Vivek&apos;s Group. All rights reserved.
         </p>
       </div>
     </footer>

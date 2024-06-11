@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import Link from "next/link";
-
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
@@ -137,16 +136,16 @@ export default function NavbarUI() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </div>
-            <div>
+            {/* <div>
               <NavigationMenuItem className="bg-transparent">
                 <Link href="/docs" legacyBehavior passHref>
                   <NavigationMenuLink>Careers</NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
-            </div>
+            </div> */}
             <div>
               <NavigationMenuItem>
-                <Link href="/docs" legacyBehavior passHref>
+                <Link href="/contact" legacyBehavior passHref>
                   <NavigationMenuLink>Contact</NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
@@ -154,7 +153,7 @@ export default function NavbarUI() {
             <div>
               <NavigationMenuItem className="bg-transparent">
                 <Link
-                  href="/docs"
+                  href="/about-us"
                   legacyBehavior
                   passHref
                   className="bg-transparent"

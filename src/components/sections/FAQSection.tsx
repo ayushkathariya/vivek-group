@@ -31,7 +31,7 @@ export default function FAQSection() {
           <Accordion type="single" collapsible className="w-full bg-cover">
             <AccordionItem value="item-1">
               <AccordionTrigger className="hover:no-underline">
-                What is Vivek's Group ?
+                What is Vivek&apos;s Group ?
               </AccordionTrigger>
               <AccordionContent>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
@@ -40,7 +40,7 @@ export default function FAQSection() {
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="hover:no-underline">
-                What services does Vivek's Group Offer ?
+                What services does Vivek&apos;s Group Offer ?
               </AccordionTrigger>
               <AccordionContent>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
